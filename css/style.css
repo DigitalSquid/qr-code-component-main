@@ -23,7 +23,7 @@ body {
 main {
   background-color: var(--white);
   max-width: 21rem;
-  margin: 5.5rem auto;
+  margin: 9rem auto;
   padding: 1rem;
   border-radius: 10px;
   box-shadow: 1px 5px 10px hsl(212, 45%, 85%);
@@ -31,6 +31,10 @@ main {
 
 figure {
   margin: 0;
+}
+
+figcaption {
+  margin: 0 1.5rem;
 }
 
 h1 {
@@ -41,7 +45,6 @@ h1 {
 
 p {
   color: var(--grayishBlue);
-  margin: 1rem 1.5rem;
 }
 
 .qr-code {
